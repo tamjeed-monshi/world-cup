@@ -4,6 +4,12 @@ body {
     margin: 0;
 }
 
+/* animation */
+.banner:hover img {
+    transform: rotate(60deg);
+
+}
+
 /* Banner */
 header {
     margin: 50px 190px;
@@ -171,4 +177,149 @@ h2 {
 footer {
     color: white;
     background-color: black;
+}
+
+
+
+/* Media queries */
+
+
+/*----------
+------- for phone---------- */
+
+
+
+
+
+/* Banner */
+@media only screen and (max-width:688px) {
+    /* Banner */
+
+    header {
+        margin: 0;
+    }
+
+    .banner {
+        width: auto;
+        color: white;
+        height: auto;
+
+
+        flex-direction: column;
+        padding: 0;
+
+
+
+
+
+        background-color: red;
+        border-radius: 20px;
+        align-items: center;
+        margin-bottom: 20px;
+
+
+    }
+
+    #player {
+
+        padding-top: 20px;
+        padding-left: 0;
+    }
+
+    /* aside */
+    main {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+
+        grid-row-gap: 30px;
+        margin-left: 0px;
+
+
+    }
+
+    .aside {
+        margin-bottom: 20px;
+    }
+
+    /* footer */
+    .foo-el {
+        display: flex;
+        text-decoration: none;
+        justify-content: flex-start;
+
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+    }
+
+
+}
+
+
+
+/* tab */
+@media screen and (min-width:689px) and (max-width:992px) {
+
+
+
+
+    header {
+        margin: 0;
+    }
+
+    .banner {
+        width: auto;
+        color: white;
+        height: auto;
+
+
+        flex-direction: column;
+        padding: 0;
+
+
+
+
+
+        background-color: black;
+        border-radius: 20px;
+        align-items: center;
+        margin-bottom: 20px;
+
+
+    }
+
+
+
+    main {
+        display: flex;
+        margin: 50px 190px;
+        align-items: center;
+
+        flex-direction: column;
+    }
+
+    .container {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+
+        grid-row-gap: 30px;
+        margin-left: 0px;
+
+
+    }
+
+
+
+
+
 }
