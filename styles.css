@@ -1,0 +1,174 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+/* Banner */
+header {
+    margin: 50px 190px;
+}
+
+.banner {
+
+    color: white;
+    padding: 100px 100px 0 100px;
+    width: 1321px;
+    height: 600px;
+    display: flex;
+    background-color: black;
+    border-radius: 20px;
+
+
+}
+
+
+.half-width {
+    width: 50%;
+
+}
+
+#player {
+
+    padding-left: 150px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+.button {
+
+    text-decoration: none;
+    background-color: orange;
+    font-weight: 700;
+
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+/* aside part */
+
+.aside {
+    background-color: black;
+    border-radius: 10px;
+    width: 312px;
+    height: 312px;
+    padding-bottom: 30px;
+}
+
+
+
+.acss {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 48px;
+
+
+}
+
+#er {
+    color: black;
+    padding: 10px 58px;
+    background-color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 48px;
+}
+
+#er1 {
+    color: white;
+    padding: 10px 88px;
+    background-color: orange;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 48px;
+}
+
+/* grid part */
+
+.card {
+    width: 312px;
+    height: 242px;
+    padding: 30px 0;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+}
+
+.flag {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flag-bottom {
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 70px;
+    grid-row-gap: 30px;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+
+main {
+    display: flex;
+    margin: 50px 190px;
+}
+
+
+/* footer */
+
+h2 {
+    padding-top: 30px;
+}
+
+.foo-el {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+#aro {
+    color: white;
+    text-decoration: none;
+}
+
+.font-icon {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.icon {
+
+    padding-left: 60px;
+
+}
+
+footer {
+    color: white;
+    background-color: black;
+}
